@@ -12,7 +12,7 @@ from gspread_formatting import *
 CREDENTIALS_FILE = r"C:\Users\jisbe\Documents\Data\Projects\Taxable-Portfolio\gspread_credentials.json"
 SHEET_NAME = "Financial Details"
 WORKSHEET_NAME = "Signals"
-TICKERS = ['PEP', 'KO', 'MSFT', 'AAPL', 'GOOGL', 'MCD', 'CL', 'KMB', 'PG']
+TICKERS = ['PEP', 'KO', 'MSFT', 'AAPL', 'GOOGL', 'MCD', 'CL', 'KMB', 'PG', 'SCHD', 'DGRO', 'SCHY', 'VIGI', 'VTI']
 
 # --- AUTHENTICATE GOOGLE SHEETS ---
 if not os.path.exists(CREDENTIALS_FILE):
